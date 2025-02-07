@@ -21,7 +21,7 @@
 
 ### EBS
 
-![alt text](s3-ebs.svg)
+![Image](https://github.com/user-attachments/assets/a02895be-cd66-472d-a7c5-6d40a4e76c67)
 
 * **Data Storage:** Data is stored as blocks, and EBS provides block-level storage volumes.
 * **File Creation:** When you create a file, the file system handles dividing the file into smaller pieces (blocks) and organizing them on the EBS volume.
@@ -33,7 +33,7 @@
 
 ### EFS
 
-![alt text](s3-efs.svg)
+![Image](https://github.com/user-attachments/assets/9790449d-0f87-4aaa-9965-1b240011d572)
 
 * **File Organization:** Data is stored and accessed as a normal filesystem hierarchy (files and directories).
 * **Access Requirement:** EFS cannot be accessed directly; it must be mounted to an EC2 instance or an on-premises server via the NFS protocol.
@@ -44,7 +44,7 @@
 
 ### S3
 
-![alt text](s3.svg)
+![Image](https://github.com/user-attachments/assets/098146f6-7630-4f6c-920b-755bc026009d)
 
 **Data Storage:** Data is stored as objects, which consist of three main components:
 
